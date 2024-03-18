@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View,} from 'react-native';
-import {text} from 'C:\Users\lenovo\salve\src\componentes';
+import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-    c
+      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Kaua Henrique Dos santos - Kaua Gabryel Pingueiro </Text>
+      <Text>Clone do projeto aula 04-03-2024 3b3 lado a </Text>
+     <Button title='Enviar'></Button>
+
+      <StatusBar style="auto" />
     </View>
   );
 }

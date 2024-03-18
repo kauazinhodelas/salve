@@ -1,10 +1,10 @@
 import { React } from 'react';
 import {  Text, View,} from 'react-native';
 
-export default function Tittle() {
+export default function kaua() {
   return (
-    <View>
-      <Text>Kaua Gabryel Pingueiro</Text>
+    <View style={styles.container}>
+      <Text>kaua Gabryel Pingueiro</Text>
     </View>
   );
 }
